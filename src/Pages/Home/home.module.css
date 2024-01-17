@@ -1,0 +1,23 @@
+.home_container {
+    margin: 10px auto;
+}
+
+.home_image {
+    width: 100%;
+    max-width: 420px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.content_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_title {
+    text-align: center;
+    font-size: 18px;
+}
+

@@ -1,0 +1,10 @@
+.notFound_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFound_text {
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+nav {
+    padding: 25px;
+    background-color: var(--primary--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}

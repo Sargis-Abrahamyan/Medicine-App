@@ -1,0 +1,14 @@
+.searchBar_wrapper {
+    background-color: rgb(200, 200, 200);
+}
+
+.card_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card_left_block > .card_price {
+    margin-bottom: 10px;
+}

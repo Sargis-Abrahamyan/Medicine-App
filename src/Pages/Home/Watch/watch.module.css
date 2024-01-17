@@ -1,0 +1,41 @@
+.watch_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--primary--color);
+    max-width: 140px;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 10px;
+    animation: animateWath 5s ease infinite alternate;
+}
+
+.time {
+    font-size: 16px;
+}
+
+@keyframes animateWath {
+    0% {
+        background-color: #5dd9c1;
+        color: var(--primary--color);
+    }
+    30% {
+        background-color: #acfcd9;
+        color: var(--primary--color);
+    }
+
+    60% {
+        background-color: #b084cc;
+        color: var(--primary--color);
+    }
+
+    80% {
+        background-color: #665687;
+        color: var(--secondary--color);
+    }
+    100% {
+        background-color: #190933;
+        color: var(--secondary--color);
+    }
+}

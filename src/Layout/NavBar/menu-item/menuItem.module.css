@@ -1,0 +1,8 @@
+.menu_item > .link_item {
+    color: var(--secondary--color);
+    transition: 0.5s ease-in;
+}
+
+.menu_item > .link_item:hover {
+    color: var(--hover-color);
+}

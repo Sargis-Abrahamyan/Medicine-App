@@ -1,0 +1,20 @@
+.selectedMedicine_container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_block {
+    margin: auto;
+}
+
+.selectedMedicine_company {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.selectedMedicine_description {
+    word-wrap: break-word;
+}
