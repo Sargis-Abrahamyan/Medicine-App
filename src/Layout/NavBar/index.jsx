@@ -3,9 +3,6 @@ import MenuItem from './menu-item/MenuItem';
 import styles from './navbar.module.css';
 
 const NavBar = () => {
-
-
-
     return (
         <nav>
             <ul className={styles.menu_list}>
